@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -11,13 +13,12 @@ public class Fruta {
         frutas.add("Laranja");
         frutas.add("Uva");
         frutas.add("Manga");
-        frutas.add("Pera");
+        frutas.add("Pêra");
         frutas.add("Melancia");
         frutas.add("Morango");
         frutas.add("Abacaxi");
         frutas.add("Cereja");
     }
-
     public static String comerFruta() {
         Random aleatorio = new Random();
         int fruta = aleatorio.nextInt(frutas.size());

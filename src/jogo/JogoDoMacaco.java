@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class JogoMacacos {
+public class JogoDoMacaco {
     private List<Macaco> macacos;
     private Scanner scanner;
 
-    public JogoMacacos() {
+    public JogoDoMacaco() {
         this.scanner = new Scanner(System.in);
         this.macacos = new ArrayList<>();
     }
@@ -54,7 +54,7 @@ public class JogoMacacos {
                 // Esperar que o usuário pressione Enter para continuar
                 System.out.println("Pressione Enter para a próxima rodada...");
                 scanner.nextLine();
-                limparConsole();
+
             }
         }
 

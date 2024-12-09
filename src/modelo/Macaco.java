@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.*;
 
 import static java.lang.Thread.sleep;
@@ -59,7 +61,8 @@ public class Macaco {
             System.out.println(this.nome + " encontrou!!!");
             return true;
         } else {
-            System.out.println(this.nome + " não encontrou! Passou a vez.");
+            System.out.println(this.nome + " não encontrou!");
+            System.out.println("Passou a vez.");
             esperar();
             return false;
         }
@@ -86,6 +89,4 @@ public class Macaco {
         System.out.println(separador);
         return separador;
     }
-
-
 }
